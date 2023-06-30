@@ -4,4 +4,4 @@ defaults:
       type: "html"
     values:
       layout: "default"
-      permalink: /index.html
+      permalink: /index.cshtml
