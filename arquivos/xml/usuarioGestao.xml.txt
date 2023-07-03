@@ -1,0 +1,6 @@
+
+	<usuario>
+		<nome>flavio</nome>
+		<senha>teste</senha>
+		<ativo>1</ativo>
+	</usuario>
