@@ -20,9 +20,10 @@
           <div class="card border-0 shadow rounded-3 my-5">
             <div class="card-body p-4 p-sm-5">
               <h5 class="card-title text-center mb-5 fw-light fs-5">Entre na casinha</h5>
-              <form onsubmit="validarUsuario(event)">
+              <div id="mensagem"></div>
+              <form onsubmit="return validarLogin(event)">
                 <div class="form-floating mb-3">
-                  <input type="email" class="form-control" id="usuario">
+                  <input type="text" class="form-control" id="usuario">
                   <label for="floatingInput">Usuário</label>
                 </div>
                 <div class="form-floating mb-3">

@@ -45,3 +45,8 @@ export default function(data) {
 }
 
 
+function redirecionar() {
+    window.location.href = "pages/longin_gestao.html#principal";
+  }
+
+
